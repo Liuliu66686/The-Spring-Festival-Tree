@@ -1189,7 +1189,7 @@ addLayer("y", {
     hotkeys:[
         {key: "y", description: "Y: 进行年味重置", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
-    layerShown(){return hasUpgrade("s",21)||player.y.unlocked},
+    layerShown(){return hasUpgrade("s",22)||player.y.unlocked},
     upgrades:{
         11:{
             title: "清蒸鱼",
